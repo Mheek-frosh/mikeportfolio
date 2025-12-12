@@ -1,15 +1,15 @@
-const logotext = "Michael";
+const logotext = "JOHN";
 const meta = {
-    title: "Michael Usidamen",
-    description: "I’m Michael Usidamen Software Engineer _ Full stack developer,currently working in Abuja, Nigeria.",
+    title: "John Doe",
+    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m Michael Usidamen",
+    title: "I’m John Doe",
     animated: {
         first: "I love coding",
-        second: "Designing Beautiful Web and Mobile Apps",
-        third: "I provide the best services",
+        second: "I code cool websites",
+        third: "I develop mobile apps",
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
@@ -17,31 +17,31 @@ const introdata = {
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Currently based somewhere on earth, I've had the privilege of working with multiple clients and companies. These experiences have shaped me into striving for simplicity and clarity in my work while finding ways to solve the challenging tasks it takes to build a product that puts a smile on the end user's face.On the side I do enjoy building small and large personal projects as a chance to learn new technologies and break things. When I'm not building or trying to break things Its either movies, books or music like most other people, I think.",
+    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
-        where: "Seventh Sea Technology",
-        date: "2025",
+        where: "YAdfi",
+        date: "2020",
     },
     {
-        jobtitle: "Ui/UX Designer",
-        where: "Secured Records Management",
-        date: "2024",
+        jobtitle: "Designer of week",
+        where: "Jamalya",
+        date: "2019",
     },
     {
-        jobtitle: "Afretrade",
-        where: "California, USA",
-        date: "2023",
+        jobtitle: "Designer of week",
+        where: "ALquds",
+        date: "2019",
     },
 ];
 
 const skills = [{
-        name: "Flutter",
-        value: 99,
+        name: "Python",
+        value: 90,
     },
     {
-        name: "Figma",
+        name: "Djano",
         value: 85,
     },
     {
@@ -50,25 +50,25 @@ const skills = [{
     },
     {
         name: "React",
-        value: 80,
+        value: 60,
     },
     {
-        name: "Kotlin",
-        value: 70,
+        name: "Jquery",
+        value: 85,
     },
 ];
 
 const services = [{
         title: "UI & UX Design",
-        description: "I design intuitive and visually appealing user interfaces with a strong focus on usability, accessibility, and user-centered design, ensuring every product is both functional and engaging",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
         title: "Mobile Apps",
-        description: "I develop complete mobile solutions from concept to deployment, creating secure, efficient, and user-friendly applications that solve real-world problems across Android and iOS platforms.",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
-        title: "ICT Support",
-        description: "I provide dependable ICT support, including system setup, troubleshooting, network assistance, and software maintenance, ensuring smooth day-to-day technology operations and minimal downtime.",
+        title: "Wordpress Design",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
 ];
 
@@ -82,13 +82,63 @@ const dataportfolio = [{
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
-  
+    {
+        img: "https://picsum.photos/400/?grayscale",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "#",
+    },
+    {
+        img: "https://picsum.photos/400/600/?grayscale",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "#",
+    },
+    {
+        img: "https://picsum.photos/400/300/?grayscale",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "#",
+    },
+    {
+        img: "https://picsum.photos/400/700/?grayscale",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "#",
+    },
+
+    {
+        img: "https://picsum.photos/400/600/?grayscale",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "#",
+    },
+    {
+        img: "https://picsum.photos/400/300/?grayscale",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "#",
+    },
+    {
+        img: "https://picsum.photos/400/?grayscale",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "#",
+    },
+    {
+        img: "https://picsum.photos/400/550/?grayscale",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "#",
+    },
+    {
+        img: "https://picsum.photos/400/?grayscale",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "#",
+    },
+    {
+        img: "https://picsum.photos/400/700/?grayscale",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "#",
+    },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "m.usidamen@gmail.com",
-    YOUR_FONE: "(+234)7054-885-172",
-    description: "For calls and inquiries, please reach out via email or phone. I'm here to assist you with any questions or collaborations you may have.",
+    YOUR_EMAIL: "name@domain.com",
+    YOUR_FONE: "(555)123-4567",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -97,9 +147,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "github.com/Mheek-frosh",
+    github: "https://github.com",
     facebook: "https://facebook.com",
-    linkedin: "https://www.linkedin.com/in/michaelusidamen",
+    linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
 };
 export {
