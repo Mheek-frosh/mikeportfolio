@@ -53,8 +53,8 @@
   inset: 0;
   z-index: 2;
 
-  /* blue overlay */
-  background: rgba(0, 120, 255, 0.75);
+  /* darkshade overlay */
+  background: rgba(48, 48, 48, 0.75);
 
   /* better layout */
   display: flex;
