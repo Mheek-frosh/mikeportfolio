@@ -1,47 +1,47 @@
-const logotext = "JOHN";
+const logotext = "Codewithmike";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Michael Usidamen",
+    description: "I’m Michael Usidamen a mobile app developer and full stack developer, currently working in Nigeria",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Hi I'm Michael Usidamen",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I love coding Mobile Apps",
+        second: "Building cool websites",
+        third: "Creating breathtaking UI designs",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "On the side I do enjoy building small and large personal projects as a chance to learn new technologies and break things. When I'm not building or trying to break things It's either movies, books or music like most other people, I think.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "Currently based somewhere on earth, I've had the privilege of working with multiple clients and companies. These experiences have shaped me into striving for simplicity and clarity in my work while finding ways to solve the challenging tasks it takes to build a product that puts a smile on the end user's face.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Seventh Sea Technologies",
+        where: "Abuja, Nigeria",
+        date: "2025 - Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Frontend Developer",
+        where: "Afretrade DTM",
+        date: "2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "UI/UX Designer",
+        where: "Secured Records Solutions",
+        date: "2023",
     },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "Flutter & Dart",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Figma",
         value: 85,
     },
     {
@@ -50,25 +50,25 @@ const skills = [{
     },
     {
         name: "React",
-        value: 60,
+        value: 80,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Kotlin",
+        value: 75,
     },
 ];
 
 const services = [{
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "I design intuitive and visually appealing user interfaces with a strong focus on usability, accessibility, and user-centered design, ensuring every product is both functional and engaging.",
     },
     {
         title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "complete mobile solutions from concept to deployment, creating secure, efficient, and user-friendly applications that solve real-world problems across Android and iOS platforms.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "ICT Support",
+        description: "dependable ICT support, including system setup, troubleshooting, network assistance, and software maintenance, ensuring smooth day-to-day technology operations and minimal downtime.",
     },
 ];
 
@@ -136,9 +136,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "m.usidamen@gmail.com",
+    YOUR_FONE: "(+234)7054-885-172",
+    description: "Contact me for any job opportunity or collaboration. I am open to discussing new projects, creative ideas, or opportunities to be part of your visions.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,7 +147,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "github.com/Mheek-frosh",
     facebook: "https://facebook.com",
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
