@@ -1,50 +1,88 @@
-/* ===== FULLSCREEN PREVIEW ===== */
+/* ===== POPUP / MODAL PREVIEW (RETains background image feature) ===== */
 .po_preview {
     position: fixed;
     inset: 0;
-    z-index: 9999;
+    z-index: 999999;
+
+    /* background is your image from inline style */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    /* center modal */
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /* stop scroll behind */
+    overflow: hidden;
 }
 
+/* dim + blur the background image */
 .po_preview::after {
     content: "";
     position: absolute;
     inset: 0;
     background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(6px);
+    pointer-events: none;
 }
 
+/* modal card */
 .po_preview_content {
     position: relative;
-    z-index: 2;
-    max-width: 800px;
-    padding: 2rem;
-    text-align: center;
+    z-index: 1000000;
+
+    width: min(900px, calc(100% - 2rem));
+    border-radius: 18px;
+    padding: 1.75rem;
+
+    /* actual modal look */
+    background: rgba(20, 20, 20, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.6);
+
+    text-align: left;
     color: #fff;
+
+    /* small entrance animation */
+    transform: translateY(8px) scale(0.98);
+    opacity: 0;
+    animation: poModalIn 180ms ease forwards;
+
+    pointer-events: auto;
+}
+
+@keyframes poModalIn {
+    to {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
 }
 
 .po_preview_content p {
-    font-size: 1.25rem;
-    line-height: 1.6;
-    margin-bottom: 2rem;
+    font-size: 1.05rem;
+    line-height: 1.65;
+    margin: 0 0 1.25rem;
+    color: rgba(255, 255, 255, 0.9);
 }
 
+/* back button */
 .po_preview_content button {
-    background: transparent;
-    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     color: #fff;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border-radius: 8px;
+
+    padding: 10px 14px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 12px;
+
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: 0.25s ease;
 }
 
 .po_preview_content button:hover {
-    background: #fff;
-    color: #000;
+    background: rgba(255, 255, 255, 0.18);
+    border-color: rgba(255, 255, 255, 0.35);
 }
