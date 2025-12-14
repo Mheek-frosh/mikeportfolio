@@ -1,3 +1,4 @@
+import { FaTiktok } from "react-icons/fa";
 import p1 from "./assets/images/port1.png";
 import p2 from "./assets/images/port2.png";
 import p3 from "./assets/images/port3.png";
@@ -118,9 +119,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/Mheek-frosh",
+    FaTiktok: "https://www.tiktok.com/@mheek_frosh",
+    linkedin: "https://www.linkedin.com/in/michaelusidamen",
     twitter: "https://twitter.com",
 };
 export {
