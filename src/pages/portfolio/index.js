@@ -37,21 +37,6 @@ export const Portfolio = () => {
             </div>
           ))}
         </div>
-
-        {/* ===== FULLSCREEN IMAGE PREVIEW ===== */}
-        {preview && (
-          <div
-            className="po_preview"
-            style={{ backgroundImage: `url(${preview.img})` }}
-          >
-            <div className="po_preview_content">
-              <p>{preview.description}</p>
-              <button onClick={() => setPreview(null)}>
-                ← Back to Portfolio
-              </button>
-            </div>
-          </div>
-        )}
       </Container>
     </HelmetProvider>
   );
