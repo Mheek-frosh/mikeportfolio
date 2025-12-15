@@ -84,26 +84,26 @@ const dataportfolio = [
     {
         img: p1,
         description:
-            "A full-featured mobile application built with Flutter, focused on performance, scalability, and a smooth user experience. The app includes user authentication, real-time data handling, and a modern UI optimized for both Android and iOS devices.",
-        link: "#",
+            "A full-featured mobile application, web built with Flutter & React, focused on performance, scalability, and a smooth user experience. The app includes user authentication, real-time data handling, and a modern UI optimized for both Android and iOS devices.",
+        link: "https://rexipay-website.vercel.app",
     },
     {
         img: p2,
         description:
-            "A complete UI/UX design project centered around user research and usability testing. The design process involved wireframing, prototyping, and creating a visually consistent interface that improves navigation flow and user engagement.",
-        link: "#",
+            "A complete UI/UX design project centered around law and tech. The design process involved wireframing, prototyping, and creating a visually consistent interface that improves navigation flow and user engagement.",
+        link: "https://www.figma.com/design/WMilWqidcAp01M7MwnzbNS/UNICORN?node-id=395-622&t=DjOlA4QcVaNXLDsF-1",
     },
     {
         img: p3,
         description:
-            "A fintech application interface designed to support secure digital payments and financial tracking. The project emphasizes data security, intuitive dashboards, and seamless transaction flows tailored for everyday users.",
-        link: "#",
+            "a hotel landing page, redesign to have a modern and appealing look.",
+        link: "https://www.figma.com/design/rzxIRkoUpyRwtw354N8lhA/Barefoot-website?node-id=1106-377&t=eqJET6xTbYBPgSvN-1",
     },
     {
         img: p4,
         description:
-            "A modern web application developed with React, featuring responsive layouts, reusable components, and optimized performance. The project focuses on delivering a clean user experience across desktop and mobile platforms.",
-        link: "#",
+            "A modern web portfolio developed with React, featuring responsive layouts, reusable components, and optimized performance. The project focuses on delivering a clean user experience across desktop and mobile platforms.",
+        link: "https://codewithmike.vercel.app",
     },
 ];
 
