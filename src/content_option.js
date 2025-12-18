@@ -18,7 +18,7 @@ const introdata = {
         first: "I love building Mobile Apps",
         second: "Coding cool websites",
         third: "Creating breathtaking UI designs",
-        fourth: "Welcome to my portfolio, browse around, enjoy your stay!",
+        fourth: "Welcome to my portfolio, browse around!",
     },
     description: "On the side I do enjoy building small and large personal projects as a chance to learn new technologies and break things. When I'm not building or trying to break things It's either movies, books or music like most other people, I think.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
